@@ -12,10 +12,19 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'mbbill/undotree'
 Plug 'plasticboy/vim-markdown'
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 " Telescope
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+
+Plug 'tpope/vim-commentary'
+Plug 'jiangmiao/auto-pairs'
+" Python syntax highlightinh
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
+" Python indentation
+Plug 'Vimjas/vim-python-pep8-indent'
 
 call plug#end()
 
